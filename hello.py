@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-import logger
+import logging
 
-logger.info("hi!")
-
+logging.info("hi!")
+logging.warn("you")
+logging.error("guy")
